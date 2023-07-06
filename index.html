@@ -54,11 +54,11 @@ h2,h3 {color: #FE8402;}
 			<h2>Interests</h2>
 			<p>
 				<ul>
-					<li>Web Security and Privacy</li>
 					<li>Cyber Security</li>
+					<li>Web Security and Privacy</li>
+					<li>Blockchain and web3</li>
 					<li>Honeypot / Honeyclient</li>
 					<li>Digital Identity and Authn / Authz</li>
-					<li>Blockchain and web3</li>
 				</ul>
 			</p>
 		</div>
@@ -85,6 +85,9 @@ h2,h3 {color: #FE8402;}
 			</ul>
 			<h3>Refereed Journal</h3>
 			<ul>
+				<li><b><a href="#" target="_blank">Analysis of electronic signatures for construction of trust services.</a></b> <a href="#" target="_blank"><span class="label label-info">DOI</span></a><br />
+					Kenta Nomura, <span class="me">Yuta Takata</span>, Hiroshi Kumagai, and Masaki Kamizono, Yoshiaki Shiraishi, Masami Mohri, and Masakatu Morii.<br />
+					IEICE TRANSACTIONS on Information and Systems, Vol.XX, No.XX, pp.XX--XX, September 2023. (To appear)</li>
 				<li><b><a href="//doi.org/10.1587/transinf.2021NGP0003" target="_blank">The Uncontrolled Web: Measuring Security Governance on the Web.</a></b> <a href="//doi.org/10.1587/transinf.2021NGP0003" target="_blank"><span class="label label-info">DOI</span></a><br />
 					<span class="me">Yuta TAKATA</span>, Hiroshi KUMAGAI, and Masaki KAMIZONO.<br />
 					IEICE TRANSACTIONS on Information and Systems, Vol.E104--D, No.11, pp.1828--1838, November 2021.</li>
@@ -262,23 +265,12 @@ h2,h3 {color: #FE8402;}
 <script src="//cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 <script src="js/bootstrap-dropdown.js"></script>
 <script src="js/bootstrap-collapse.js"></script>
-<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script async src="/www.googletagmanager.com/gtag/js?id=G-KBQ48HEQSF"></script>
 <script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-22807983-1']);
-_gaq.push(['_trackPageview', '/index-ja']);
-(function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
-$(function(){
-	$("a").bind("click", function(){
-		var data = $(this).attr("href");
-		_gaq.push(['_trackEvent','transfer','click_link',data]);
-	});
-});
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-KBQ48HEQSF');
 </script>
 </body>
 </html>
